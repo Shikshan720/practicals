@@ -18,6 +18,13 @@ pipeline {
             steps {
                 echo 'Deploying..'
             }
+            
+        }
+        stage('Destory') {
+            steps {
+                echo 'Destorying..'
+            }
+            
         }
     }
 }
