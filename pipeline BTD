@@ -20,11 +20,5 @@ pipeline {
             }
             
         }
-        stage('Destory') {
-            steps {
-                echo 'Destorying..'
-            }
-            
-        }
     }
 }
